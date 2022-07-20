@@ -1,5 +1,5 @@
 html {
-  min-height: 100%;    
+  min-height: 100%;
 }
 
 body {
@@ -26,14 +26,24 @@ body {
 
 #rodape {
   background-color: rgb(0, 123, 75);
-  position: fixed;
-  bottom: 0;
+  position:absolute;
+  top: 1500px;
+  left: 0px; 
+  right: 0px;
+  bottom: 0px;
+  font-size: smaller;
   height: 75px;
+  padding: 0px;
   width: 100%;
+  margin: 0px 0px 0px 0px;
   text-align: right;
-  line-height: 100px; 
+  line-height: 100px;
 }
 
 #icon {
-    width: 50px;
+  width: 50px;
+}
+
+#artigo {
+  font-size: smaller;
 }
