@@ -19,7 +19,7 @@ body {
   height: 75px;
 }
 
-#titulo {
+.titulo {
   color: whitesmoke;
   text-align: center;
 }
@@ -40,7 +40,7 @@ body {
   line-height: 100px;
 }
 
-#icon {
+.icon {
   width: 50px;
 }
 
