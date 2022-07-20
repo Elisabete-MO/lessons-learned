@@ -19,23 +19,21 @@ body {
   height: 75px;
 }
 
-.titulo {
+#titulo {
   color: whitesmoke;
   text-align: center;
 }
 
 #rodape {
   background-color: rgb(0, 123, 75);
-  position:absolute;
+  color: whitesmoke;
+  position: absolute;
   top: 1500px;
-  left: 0px; 
-  right: 0px;
-  bottom: 0px;
-  font-size: smaller;
+  font-size: small;
   height: 75px;
   padding: 0px;
   width: 100%;
-  margin: 0px 0px 0px 0px;
+  margin: 0px;
   text-align: right;
   line-height: 100px;
 }
@@ -46,4 +44,11 @@ body {
 
 #artigo {
   font-size: smaller;
+}
+
+#barra {
+    background-color: rgb(0, 123, 75);
+    color: whitesmoke;
+    position: absolute; 
+    text-align: center;
 }
